@@ -4,7 +4,7 @@ const connectDB = require("./db/connect");
 
 const tasks = require("./routes/task");
 
-require("dotenv")
+require('dotenv').config();
 
 app.use(express.json());
 
